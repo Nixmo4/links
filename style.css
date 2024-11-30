@@ -1,0 +1,80 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+    background-color: #000000; /* Black background */
+    color: #000000; /* Black font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    background: #ffffff; /* White card background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+}
+
+/* Profile Section */
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #ffffff; /* White border */
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 700; /* Bold weight for the name */
+    margin-bottom: 5px;
+}
+
+.bio {
+    font-size: 14px;
+    color: #555555; /* Subtle gray font */
+    font-weight: 400; /* Regular weight for the bio */
+    margin-bottom: 20px;
+}
+
+/* Links */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600; /* Semi-bold for the buttons */
+    text-align: center;
+    color: #000000; /* Black font color for links */
+    background-color: #ffffff; /* White buttons */
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+}
+
+.link-btn:hover {
+    background-color: #f4f4f4; /* Slightly lighter hover effect */
+    box-shadow: 0 6px 10px rgba(255, 255, 255, 0.2);
+}
